@@ -130,7 +130,7 @@ export default function Home() {
       <section className="hero shell" id="top">
         <div className="hero-copy">
           <p className="eyebrow"><span className="eyebrow-line" />{t.eyebrow}</p>
-          <h1>{t.title}</h1>
+          <h1><span className="hero-greeting">Hallo, it&apos;s Zobia.</span><br />{t.title}</h1>
           <p className="hero-intro">{t.intro}</p>
           <div className="hero-actions">
             <a className="button button-dark" href="#work">{t.viewWork}<span>↘</span></a>
